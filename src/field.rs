@@ -247,7 +247,7 @@ impl Div<FieldPrime> for FieldPrime {
     type Output = FieldPrime;
 
     fn div(self, other: FieldPrime) -> FieldPrime {
-        self * other.inverse_mul()
+      self * other.inverse_mul()
     }
 }
 

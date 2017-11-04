@@ -1,0 +1,50 @@
+def and(x, y):
+  return x*y
+
+def or(x, y):
+  return if (x + y) == 0 then 0 else 1 fi
+
+def xor(x, y):
+  return if (x + y) == 1 then 1 else 0 fi
+
+def not(x):
+  return if x == 0 then 1 else 0 fi
+
+// returns 1 if arg is a valid bit (0 or 1)
+def checkBit(x):
+  return if (x)*(x - 1) == 0 then 1 else 0 fi
+
+def main(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17, r18, r19, r20, r21, r22, r23, r24, r25, r26, r27, r28, r29, r30, r31, r32):
+  r1 == and(a1, b1)
+  r2 == and(a2, b2)
+  r3 == and(a3, b3)
+  r4 == and(a4, b4)
+  r5 == and(a5, b5)
+  r6 == and(a6, b6)
+  r7 == and(a7, b7)
+  r8 == and(a8, b8)
+  r9 == and(a9, b9)
+  r10 == and(a10, b10)
+  r11 == and(a11, b11)
+  r12 == and(a12, b12)
+  r13 == and(a13, b13)
+  r14 == and(a14, b14)
+  r15 == and(a15, b15)
+  r16 == and(a16, b16)
+  r17 == and(a17, b17)
+  r18 == and(a18, b18)
+  r19 == and(a19, b19)
+  r20 == and(a20, b20)
+  r21 == and(a21, b21)
+  r22 == and(a22, b22)
+  r23 == and(a23, b23)
+  r24 == and(a24, b24)
+  r25 == and(a25, b25)
+  r26 == and(a26, b26)
+  r27 == and(a27, b27)
+  r28 == and(a28, b28)
+  r29 == and(a29, b29)
+  r30 == and(a30, b30)
+  r31 == and(a31, b31)
+  r32 == and(a32, b32)
+  return 1
