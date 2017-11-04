@@ -1,0 +1,11 @@
+def and(x, y):
+  return x*y
+
+// returns 0 if arg is a valid bit (0 or 1)
+def checkBit(x):
+  return (x)*(x - 1)
+
+def main(x, y):
+  0 == checkBit(x)
+  0 == checkBit(y)
+  return and(x,y)
